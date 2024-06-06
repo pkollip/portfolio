@@ -6,7 +6,7 @@ import Body from  './components/Body.jsx'
 function App() {
   return (
     <div>
-      <DynamicHeader />
+      {/* <DynamicHeader /> */}
       <Body />
     </div>
   )

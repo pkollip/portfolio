@@ -1,13 +1,12 @@
 import React from 'react';
-import 'tailwindcss/tailwind.css';
-
 
 const Body = () => {
   return (
-    <div
-    className='bg-old_computer_background h-screen bg-cover bg-center'
-    >
-      <h1>BODY</h1>
+    <div className="bg-old_computer_background bg-center bg-cover h-screen">
+      <div>
+        <p>Home</p>
+        <p>Bio</p>
+      </div>
     </div>
   )
 };

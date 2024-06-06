@@ -3,7 +3,6 @@ import {TypeAnimation} from 'react-type-animation'
 import "../index.css"
 
 
-
 const DynamicHeader = () => {
   return (
       <TypeAnimation
