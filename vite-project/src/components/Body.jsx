@@ -2,10 +2,11 @@ import React from 'react';
 
 const Body = () => {
   return (
-    <div className="bg-old_computer_background bg-center bg-cover h-screen">
+    <div className="bg-green-900 bg-center bg-cover h-screen">
       <div>
-        <p>Home</p>
-        <p>Bio</p>
+        <a href="">
+
+        </a>
       </div>
     </div>
   )
