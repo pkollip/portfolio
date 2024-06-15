@@ -2,11 +2,18 @@ import React from 'react';
 
 const Body = () => {
   return (
-    <div className="bg-green-900 bg-center bg-cover h-screen">
-      <div>
-        <a href="">
-
-        </a>
+    <div className="">
+      <div className=''>
+        <TypeAnimation
+        className="dynamic_header"
+        sequence={[
+          "Praval Kollipara"
+        ]}
+        wrapper="span"
+        speed={1}
+        style={{ fontSize: '2em', display: 'inline-block' }}
+        repeat={Infinity}
+      />
       </div>
     </div>
   )

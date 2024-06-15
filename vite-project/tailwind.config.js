@@ -10,6 +10,9 @@ export default {
       backgroundImage: {
         'old_computer_background': "url('../assets/old_computer_background.jpeg')",
       },
+      fontFamily: {
+        'RobotoMono': ['Roboto', 'sans-serif'],
+      }
     },
   },
   plugins: [],
