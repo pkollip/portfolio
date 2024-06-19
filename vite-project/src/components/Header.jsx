@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-between items-center p-2">
+    <div className="bg-transparent flex flex-row justify-between items-center p-6">
         <div>
         <h1 className="font-bold font-RobotoMono text-2xl">prav.dev</h1>
         </div>
