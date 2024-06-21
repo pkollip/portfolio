@@ -5,7 +5,13 @@
 
 
 @layer base {
-  html {
-    @apply bg-slate-600
+  .relative {
+    position: relative;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .z-10 {
+    z-index: 10;
   }
 }

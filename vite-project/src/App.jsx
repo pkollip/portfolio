@@ -3,16 +3,18 @@ import './App.css'
 import DynamicHeader from './components/DynamicHeader.jsx'
 import Introduction from  './components/Introduction.jsx'
 import Header from './components/Header.jsx'
-import AboutMe from './components/AboutMe.jsx'
+import ParticleBkgd from './components/ParticleBkgd.jsx'
 
 function App() {
   return (
-    <div>
-      <div className='fixed top-0 left-0 w-full z-10'>
-        <Header />
+    <div className='relative min-h-screen'>
+      <ParticleBkgd />
+      <div className="relative z-10">
+        <div className='fixed top-0 left-0 w-full z-10'>
+          <Header />
+        </div>
+        <Introduction />
       </div>
-      <Introduction />
-      <AboutMe />
     </div>
   )
 }
