@@ -4,6 +4,7 @@ import DynamicHeader from './components/DynamicHeader.jsx'
 import Introduction from  './components/Introduction.jsx'
 import Header from './components/Header.jsx'
 import ParticleBkgd from './components/ParticleBkgd.jsx'
+import Projects from './components/Projects.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Header />
         </div>
         <Introduction />
+        <Projects />
       </div>
     </div>
   )
