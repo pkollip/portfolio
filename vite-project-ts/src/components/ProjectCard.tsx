@@ -1,28 +1,42 @@
-import React from "react";
-// import {
-//   Card,
-//   CardContent,
-//   CardTitle,
-//   CardDescription,
-// } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
-export const ProjectCard = ({
-  title,
-  description,
-  imgUrl,
-  linkUrl,
-  classN = "proj-imgbx",
-}) => {
+export default function Component() {
   return (
-    <div className={classN}>
-      <img src={imgUrl} alt={title} />
-      <div className="p-4">
-        <h2 className="text-xl font-bold mb-2">{title}</h2>
-        <p className="text-gray-600">{description}</p>
-        <a href={linkUrl} className="text-blue-500 hover:underline">
-          Learn More
-        </a>
-      </div>
-    </div>
+    <Card className="w-full max-w-sm rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl focus-within:scale-[1.02] focus-within:shadow-xl">
+      <link
+        href="https://github.com/pkollip/TreeCoverage-ClimateChange"
+        className="group block"
+        // prefetch={false}
+      >
+        <img
+          src="https://github.com/pkollip/TreeCoverage-ClimateChange"
+          width="400"
+          height="200"
+          alt="Project Thumbnail"
+          className="w-full h-[200px] object-cover transition-all group-hover:scale-105 group-focus-within:scale-105"
+          style={{ aspectRatio: "400/200", objectFit: "cover" }}
+        />
+        <CardContent className="p-6 space-y-3">
+          <CardTitle className="text-lg font-semibold">
+            Tree Coverage and Climate Change
+          </CardTitle>
+          <CardDescription className="text-muted-foreground">
+            Lorem ipsum
+          </CardDescription>
+          <Button
+            variant="link"
+            className="text-primary hover:underline focus-visible:underline"
+          >
+            View Project
+          </Button>
+        </CardContent>
+      </link>
+    </Card>
   );
-};
+}
