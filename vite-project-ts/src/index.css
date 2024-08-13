@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Share+Tech+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .relative {
+    position: relative;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .z-10 {
+    z-index: 10;
+  }
+}
