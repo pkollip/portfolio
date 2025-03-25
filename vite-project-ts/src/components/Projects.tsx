@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
